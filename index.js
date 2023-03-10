@@ -3,6 +3,7 @@ let heart1 = document.getElementById("heart1");
 let like1 = document.getElementById("like1");
 let comment1 = document.getElementById("comment1");
 let commentAppear = document.getElementById("comment-appear")
+let imgClick = document.getElementById("post-image")
 
 
 // Second Post
@@ -20,6 +21,10 @@ let comm3 = document.getElementById("comm3");
 
 let likes1 = 1;
 heart1.addEventListener("click" , function(){
+    like1.innerHTML = `${likes1++} Likes`
+    heart1.style.color = "red"
+})
+imgClick.addEventListener("dblclick" , function(){
     like1.innerHTML = `${likes1++} Likes`
 })
 

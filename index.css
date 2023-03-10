@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 html, body {
     margin:auto;
-    padding-bottom: 10px;
-    width: 480px;
+    padding: 5px;
+    width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav{
@@ -40,7 +40,7 @@ h1{
     margin-bottom: 0;
 }
 .post-img{
-    width: 475px;
+    width: 100%;
     border-radius: 10px;
 }
 .icons-small{
@@ -71,10 +71,11 @@ h1{
 
 button{
     height: 35px;
+    width: 50px;
     color: #3b1409;
     background-color: transparent;
     font-weight: bolder;
-    border: none;
-    margin-left: -40px;
-    border-left: 1px solid grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-left: -5px;
 }
