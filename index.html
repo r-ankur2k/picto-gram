@@ -2,10 +2,12 @@
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
         <title>ANKU-GRAM</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
     <body>
         <div class="nav">
-            <h1><span>ANKU</span>-<span2>GRAM</span2></h1>
+            <h1><span>PICTO</span> <span2>GRAM</span2></h1>
             <img class="user-img" src="images/user-avatar.jpg">
         </div>
         <div class="post-head">
@@ -19,15 +21,20 @@
             <img class="post-img" src="images/post-vangogh.jpg">
         </div>
         <div class="icons">
-            <img class="icons-small" src="images/icon-heart.png">
-            <img class="icons-small" src="images/icon-comment.png">
-            <img class="icons-small" src="images/icon-dm.png">
+            <img class="icons-small" id="heart1" src="images/icon-heart.png">
+            <img class="icons-small" id="comment1" src="images/icon-comment.png">
+            <img class="icons-small" id="dm1" src="images/icon-dm.png">
         </div>
         <div class="comments">
-            <p class="likes">21,492 likes</p>
-            <p class="cmment"><span>vincey1853</span> Just took some mushrooms lol</p>
+            <p class="likes" id="like1">0 Likes</p>
+            <div id="comment-add">
+            </div>
+            <div id="comment-appear">
+                <input id="comment-value" placeholder="Enter a Comment">
+                <button id="comment-btn">➡</button>
+            </div>
         </div>
-        <div class="post-head">
+        <!-- <div class="post-head">
             <img class="user-img" src="images/avatar-ducreux.jpg">
             <div class="post-right">
                 <h5>Ducreux</h5>
@@ -38,13 +45,18 @@
             <img class="post-img" src="images/post-ducreux.jpg">
         </div>
         <div class="icons">
-            <img class="icons-small" src="images/icon-heart.png">
-            <img class="icons-small" src="images/icon-comment.png">
-            <img class="icons-small" src="images/icon-dm.png">
+            <img class="icons-small" id="heart2" src="images/icon-heart.png">
+            <img class="icons-small" id="comment2" src="images/icon-comment.png">
+            <img class="icons-small" id="dm2" src="images/icon-dm.png">
         </div>
         <div class="comments">
-            <p class="likes">19,492 likes</p>
-            <p class="cmment"><span>docky1853</span> Thats Some Good stuff !</p>
+            <p class="likes" id="like2">0 Likes</p>
+            <div id="comment-add">
+            </div>
+            <div id="comment-appear">
+                <input id="comment-value2" placeholder="Enter a Comment">
+                <button id="comment-btn2">➡</button>
+            </div>
         </div>
         <div class="post-head">
             <img class="user-img" src="images/avatar-courbet.jpg">
@@ -57,14 +69,14 @@
             <img class="post-img" src="images/post-courbet.jpg">
         </div>
         <div class="icons">
-            <img class="icons-small" src="images/icon-heart.png">
-            <img class="icons-small" src="images/icon-comment.png">
-            <img class="icons-small" src="images/icon-dm.png">
+            <img class="icons-small" id="heart3" src="images/icon-heart.png">
+            <img class="icons-small" id="comment3" src="images/icon-comment.png">
+            <img class="icons-small" id="dm3" src="images/icon-dm.png">
         </div>
         <div class="comments">
-            <p class="likes">211,492 likes</p>
+            <p class="likes" id="like3">0 Likes</p>
             <p class="cmment"><span>corbey123</span> Some Fantastic things here !!</p>
-        </div>
+        </div> -->
         <script src="index.js"></script>
     </body>
 </html>

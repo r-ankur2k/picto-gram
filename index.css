@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 html, body {
     margin:auto;
-    padding: 0;
+    padding-bottom: 10px;
     width: 480px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -54,6 +55,26 @@ h1{
     font-weight: bold;
 }
 .comments{
-    border-bottom: 2px solid grey;
+    /* border-bottom: 2px solid grey; */
     padding-bottom: 5px;
+}
+.nav span , .nav span2{
+    font-family: 'Sofia', cursive;
+}
+#comment-value , comm2 ,comm3 {
+    height: 35px;
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 10px ;
+    padding-left: 25px;
+}
+
+button{
+    height: 35px;
+    color: #3b1409;
+    background-color: transparent;
+    font-weight: bolder;
+    border: none;
+    margin-left: -40px;
+    border-left: 1px solid grey;
 }
